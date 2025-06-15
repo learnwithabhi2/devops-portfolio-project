@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Welcome to Abhishek's World</title>
+  </head>
+  <body>
+    <h1>Welcome to Abhishek's World</h1>
+    <h2>Add User</h2>
+    <form action="/add-user" method="POST">
+      <input
+        type="text"
+        name="name"
+        placeholder="Name (required)"
+        required
+      /><br />
+      <input type="number" name="number" placeholder="Number" /><br />
+      <input type="number" name="age" placeholder="Age" /><br />
+      <textarea name="biodata" placeholder="Biodata"></textarea><br />
+      <button type="submit">Add User</button>
+    </form>
+
+    <h2>View All Users</h2>
+    <a href="/users"><button>View</button></a>
+  </body>
+</html>
